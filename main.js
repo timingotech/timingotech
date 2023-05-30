@@ -25,8 +25,8 @@ menu_item.forEach((item) => {
 });
 function sendEmail(){
     Email.send({
-        SecureToken:"52064b80-222f-4cb1-b34c-fda82daa8a36",
-        To : 'timingotech.gmail.com',
+        SecureToken:"1e0334dd-0770-4ac6-b699-df901de8a9d8",
+        To : 'taonuga@gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Contact Form Enquiry",
         Body : "Name:"+ document.getElementById("name").value
