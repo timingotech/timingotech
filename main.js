@@ -23,16 +23,16 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
-function sendEmail(){
-    Email.send({
-        SecureToken:"1e0334dd-0770-4ac6-b699-df901de8a9d8",
-        To : 'taonuga@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New Contact Form Enquiry",
-        Body : "Name:"+ document.getElementById("name").value
-               +"<br> Email:" + document.getElementById("email").value
-               +"<br> Message:" + document.getElementById("message").value
-    }).then(
-      message => alert("Message Sent Successfully")
-    );
-}
+function sendemail(){
+  Email.send({
+      SecureToken:"841e0fb5-f92f-4c22-a580-55b533084c30",
+      To : 'timingotech@gmail.com',
+      From : 'taonuga@gmail.com',
+      Subject : "New Contact Form Enquiry",
+      Body :"Name: "+ document.getElementById("name").value +
+            "<br>Message: "+ document.getElementById("message").value +
+            "<br>Email: "+ document.getElementById("email").value
+  }).then(
+    message => alert("Message Sent Successfully")
+  );
+} 
