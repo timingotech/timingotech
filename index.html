@@ -7,6 +7,9 @@
   <title>My Website</title>
 </head>
 <body>
+  <div class="loading-animation">
+    <div class="spinner"></div>
+  </div>
   <!-- Header -->
   <section id="header">
     <div class="header container">
@@ -43,42 +46,39 @@
   </section>
   <!-- End Hero Section  -->
 
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p> As a front-end developer, I specialize in creating captivating websites and web applications. Using HTML, CSS, and JavaScript, I bring your ideas to life by crafting visually appealing designs and seamless functionality. My focus is on delivering exceptional user experiences that leave a lasting impression. Let's work together to create a website or web application that captivates your audience and achieves your goals.</p>
+ <!-- Service Section -->
+<section id="services">
+  <div class="services container">
+    <div class="service-top">
+      <h1 class="section-title">Serv<span>i</span>ces</h1>
+      <p> As a full-stack developer and AI enthusiast, I specialize in building scalable applications, integrating artificial intelligence, and managing tech projects efficiently. From crafting intuitive front-end experiences to developing robust back-end solutions, I bring innovation and efficiency to software development. Let’s collaborate to build AI-driven applications that solve real-world problems.</p>
+    </div>
+    <div class="service-bottom">
+      <div class="service-item">
+        <div class="icon"><img src="https://img.icons8.com/?size=512&id=111134&format=png"/></div>
+        <h2>Full-Stack Development</h2>
+        <p>Building scalable web applications with front-end frameworks like React and back-end technologies such as Node.js and Python, ensuring seamless user interactions and data management.</p>
       </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/?size=512&id=111134&format=png"/></div>
-          <h2>Web Development</h2>
-          <p>I specialize in building the client-side of your digital presence, using HTML, CSS, and JavaScript to create the structure, layout, and interactivity.</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/?size=512&id=116999&format=png"/></div>
-          <h2>User Interface (UI)</h2>
-          <p>Working closely with UI designers, I bring their visual designs to life by translating them into code, ensuring pixel-perfect precision and a visually stunning user interface.
-
-          </p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/?size=2x&id=108648&format=png"/></div>
-          <h2>User Experience (UX) Enhancement</h2>
-          <p> I focus on creating intuitive and user-friendly interfaces, implementing smooth navigation, interactive elements, and engaging interactions to enhance the overall user experience.</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/?size=512&id=94158&format=png"/></div>
-          <h2>Integration with Back-End Systems</h2>
-          <p>I collaborate with back-end developers to integrate front-end components seamlessly with server-side functionality, enabling dynamic and interactive features.</p>
-        </div>
+      <div class="service-item">
+        <div class="icon"><img src="https://img.icons8.com/?size=512&id=116999&format=png"/></div>
+        <h2>AI-Powered Solutions</h2>
+        <p>Leveraging machine learning and AI models to create intelligent applications, automating processes, enhancing decision-making, and improving user experiences.</p>
+      </div>
+      <div class="service-item">
+        <div class="icon"><img src="https://img.icons8.com/?size=2x&id=108648&format=png"/></div>
+        <h2>Software Architecture & Scalability</h2>
+        <p>Designing efficient system architectures, optimizing databases, and ensuring applications are scalable, secure, and performant for high traffic demands.</p>
+      </div>
+      <div class="service-item">
+        <div class="icon"><img src="https://img.icons8.com/?size=512&id=94158&format=png"/></div>
+        <h2>Technical Project Management</h2>
+        <p>Managing development workflows, implementing agile methodologies, and ensuring project milestones are met efficiently while maintaining high-quality software delivery.</p>
       </div>
     </div>
-  </section>
-  <!-- End Service Section -->
+  </div>
+</section>
+<!-- End Service Section -->
 
-  
 
   <!-- Projects Section -->
   <section id="projects">
@@ -89,72 +89,98 @@
       <div class="all-projects">
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>E-Commerce</h2>
+            <h1>SereniMind, 2024</h1>
+            <h2>Mental Health Tech Startup</h2>
+            <p>SereniMind is an AI-powered mental health platform integrating an intelligent chatbot, mood-based recommendations, and advanced sentiment analysis. It offers personalized therapy suggestions, automated self-care insights, and an adaptive support community. With AI-driven engagement and robust security, it delivers real-time mental wellness analysis for a tailored user experience.
+            </p>
+            <p> <a href="https://www.serenimind.com.ng" class="cta">Check it out</a></p>
+        </div>
+          <div class="project-img">
+            <img src="./images/Serenimind.png" alt="Serenimind">
+          </div>
+        </div>
+  
+        <div class="project-item">
+          <div class="project-info">
+            <h1>MAP Frontend Project, 2024</h1>
+            <h2>Procurement Quotes Platform</h2>
+            <p>Developed a frontend solution for MAP's procurement quotes system using React. The project features a responsive UI, smooth navigation, and optimized performance.</p>
+            <p> <a href="https://mapai-ten.vercel.app/procurement/quotes" class="cta">Check it out</a></p>
+        </div>
+          <div class="project-img">
+            <img src="./images/Map.png" alt="MAP Project">
+          </div>
+        </div>
+  
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Tentrribe, 2024</h1>
+            <h2>Community Engagement Platform</h2>
+            <p>Tentrribe is a digital platform that fosters community engagement through interactive forums, group discussions, and resource sharing. It’s designed to bring people together for knowledge exchange and networking.</p>
+            <p> <a href="https://changemakers-rho.vercel.app/" class="cta">Check it out</a></p>
+        </div>
+          <div class="project-img">
+            <img src="./images/Tentribe.png" alt="Tentrribe">
+          </div>
+        </div>
+  
+        <div class="project-item">
+          <div class="project-info">
+            <h1>E-Commerce, 2023</h1>
+            <h2>Online Store</h2>
             <p>I developed an e-commerce website using HTML, CSS, JavaScript, PHP, and MySQL. It features a user-friendly interface, interactive elements, and secure back-end functionality for product management, user authentication, and order processing.</p>
             <p> <a href="http://timingo.byethost7.com/home.php" class="cta">Check it out</a></p>
         </div>
           <div class="project-img">
-            <img src="./images/ecommmerce.png" alt="img">
+            <img src="./images/ecommerce.png" alt="E-Commerce">
           </div>
         </div>
+  
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Treking Web Application</h2>
-            <p>I used HTML, CSS, and JavaScript to create TrekTogether, a web app that connects local trekkers, helping you find adventure companions and stay updated on nearby trekking events. It features location-based search, event creation, and real-time chat for seamless coordination.</p>
+            <h1>Trekking Web Application, 2023</h1>
+            <h2>Outdoor Adventure</h2>
+            <p>TrekTogether is a web app connecting local trekkers, allowing them to find adventure companions and stay updated on nearby trekking events.</p>
             <p> <a href="https://timingotech.github.io/treksite" class="cta">Check it out</a></p>
         </div>
           <div class="project-img">
-            <img src="./images/Timingotrekpic.png" alt="img">
+            <img src="./images/Timingotrekpic.png" alt="Trekking Web App">
           </div>
         </div>
+  
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>Chat Application</h2>
-            <p>I developed a chat application using HTML, CSS, JavaScript, PHP, and MySQL. It enables real-time communication, with a user-friendly interface and efficient message storage and retrieval.</p>
+            <h1>Chat Application, 2020</h1>
+            <h2>Real-Time Messaging</h2>
+            <p>A chat application built using HTML, CSS, JavaScript, PHP, and MySQL, enabling seamless real-time communication.</p>
             <p> <a href="https://timingochat.000webhostapp.com/" class="cta">Check it out</a></p>
         </div>
           <div class="project-img">
-            <img src="./images/timingochat.png" alt="img">
+            <img src="./images/timingochat.png" alt="Chat App">
           </div>
         </div>
+  
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 4</h1>
-            <h2>Meter App Detector</h2>
-            <p>Introducing Timingometer: An advanced meter app that detects low levels and sends instant text alerts, ensuring you stay informed and prepared. Manage your meters with ease and avoid unexpected disruptions.</p>
+            <h1>Meter App Detector, 2021</h1>
+            <h2>Utility Monitoring</h2>
+            <p>Timingometer is an advanced meter app that detects low levels and sends instant text alerts, ensuring users stay informed.</p>
             <p> <a href="https://timingotech.github.io/timingometer" class="cta">Check it out</a></p>
         </div>
           <div class="project-img">
-            <img src="./images/timingometer.png" alt="img">
+            <img src="./images/timingometer.png" alt="Meter App">
           </div>
         </div>
+  
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 5</h1>
-            <h2>Portfolio Website</h2>
-            <p>
-                I developed a portfolio website using HTML, CSS, and JavaScript to showcase my work, skills, and achievements. With structured HTML content, stylish CSS design, and interactive JavaScript elements like image sliders and dynamic menus, I created a visually appealing and user-friendly portfolio that effectively highlights my capabilities and accomplishments.</p>
-                <p> <a href="https://timingotech.github.io/timingo.github.io/" class="cta">Check it out</a></p>
-            </div>
-          <div class="project-img">
-            <img src="./images/portfolio.png" alt="img">
-          </div>
+            <h1>Portfolio Website, 2020</h1>
+            <h2>Personal Branding</h2>
+            <p>A portfolio website to showcase my work, skills, and achievements, designed with HTML, CSS, and JavaScript.</p>
+            <p> <a href="https://timingotech.github.io/timingo.github.io/" class="cta">Check it out</a></p>
         </div>
-        
-        <div class="project-item">
-            <div class="project-info">
-              <h1>Project 6</h1>
-              <h2>Flappy Bird Game</h2>
-              <p>
-  I developed a Flappy Bird game using HTML, CSS, and JavaScript. It features the iconic gameplay, with HTML providing the structure, CSS adding visual appeal, and JavaScript implementing the game logic and interactivity.</p>
-              <p> <a href="https://timingotech.github.io/flappygame.github.io/" class="cta">Check it out</a></p>
-            </div>
-            <div class="project-img">
-              <img src="./images/flappy.png" alt="img">
-          </div>
+          <div class="project-img">
+            <img src="./images/portfolio.png" alt="Portfolio">
           </div>
         </div>
       </div>
@@ -172,46 +198,83 @@
       </div>
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
-        <h2>Full-Stack Developer</h2>
-        <p>With an impressive 4-year journey as a web developer, I excel in crafting captivating web applications and websites that prioritize user experience. My toolbox boasts a wide range of technologies including HTML, CSS, JavaScript, React, Tailwind CSS, PHP, MySQL, Python, and Django, empowering me to create dynamic and interactive user interfaces with finesse. Leveraging the power of React and the sleek styling of Tailwind CSS, I bring life to digital experiences that captivate users. Additionally, my proficiency in back-end technologies such as PHP, MySQL, Python, and Django ensures seamless server-side functionality and robust database management.</p>
-        <a href="images/Ridwanscv.pdf" class="cta">Download Resume</a>
+        <h2>Full-Stack AI Developer</h2>
+        <p>With four years of experience in full-stack development and AI-driven solutions, I specialize in building scalable and intelligent web applications that enhance user experience. My expertise spans front-end technologies like React, Next.js, Tailwind CSS, and JavaScript, enabling me to craft highly interactive and responsive interfaces. On the back end, I leverage Node.js, Express, Python, and MySQL to ensure seamless data processing and efficient server-side functionality. Additionally, I integrate AI models and automation into applications, optimizing workflows and user interactions. With a strong foundation in project management, I drive end-to-end development, ensuring efficient execution and delivery of AI-powered and full-stack solutions.
+        </p>
+        <a href="images/ResumeMain.pdf" class="cta">Download Resume</a>
       </div>
     </div>
 
-    <div class="experience">
-        <h1>E<span>xperience</span></h1>
-      
-        <div class="experience-item">
-          <h3>Web Developer, Ringwell Projects and Services</h3>
-          <p class="experience-duration">2021 - Current</p>
-          <ul>
-            <li>Code responsive websites using HTML, CSS, JavaScript, and jQuery, ensuring seamless user experiences across devices.</li>
-            <li>Employ cutting-edge software and technologies to enhance website performance and optimize corporate online presence.</li>
-            <li>Utilize PHP for back-end development, maintaining website integrity and implementing efficient server-side functionality. </li>
-          </ul>
-        </div>
-      
-        <div class="experience-item">
-          <h3>CTO, Timingotech</h3>
-          <p class="experience-duration">2021 - Current</p>
-          <ul>
-            <li>As Timingotech’s CTO, I steered web development innovation to new horizons, delivering a game-changing solution that ignited partnerships with industry leaders and propelled substantial business growth. </li>
-            <li>As the UX-driven CTO of Timingotech, I transformed web experiences, delivering remarkable innovations that captivated users and set new industry standards. </li>
-            <li>•	As the visionary CTO at Timingotech, I led the charge in revolutionizing e-commerce with a transformative website, seamlessly blending technology and design to deliver an unparalleled online shopping experience</li>
-          </ul>
-        </div>
-      
-        <div class="experience-item">
-          <h3>Lead Front-End Developer, Allforms Limited</h3>
-          <p class="experience-duration">2023 - Current</p>
-          <ul>
-            <li>Spearhead the implementation of automated build and deployment pipelines, optimizing development processes and ensuring efficient project delivery</li>
-            <li>Successfully multitask across multiple functions and roles, effectively meeting tight deadlines and exceeding organizational expectations.</li>
-            <li>Developed user-oriented visuals and features using front-end languages to increase site traffic.</li>
-            <li>Conduct comprehensive unit testing to deliver optimal browser functionality, ensuring high-quality user experiences.</li>
-          </ul>
-        </div>
+   
+  
+    <div class="experience-header fade-in">
+      <h1>Professional Experience</h1>
+      <p>A timeline of my career journey and professional growth across various roles and organizations.</p>
+    </div>
+  
+    <div class="experience-timeline">
+      <div class="timeline-item fade-in">
+        <h3>CEO & Founder <span class="company-tag">SereniMind</span> <span class="current-position">Current</span></h3>
+        <div class="timeline-duration">July 2024 - Present</div>
+        <ul class="timeline-list">
+          <li>Founded and built SereniMind, a mental health tech startup focused on providing accessible mental wellness solutions.</li>
+          <li>Led product development, strategic marketing, and business growth initiatives to drive user engagement.</li>
+          <li>Collaborated with mental health professionals to create a seamless platform for therapy and community support.</li>
+        </ul>
       </div>
+  
+      <div class="timeline-item fade-in">
+        <h3>Director of Public Relations <span class="company-tag">BUSA</span> <span class="current-position">Current</span></h3>
+        <div class="timeline-duration">July 2024 - Present</div>
+        <ul class="timeline-list">
+          <li>Oversees and manages BUSA's public relations and communication strategies.</li>
+          <li>Develops and executes campaigns to engage students and external stakeholders.</li>
+          <li>Enhances the visibility and reputation of BUSA through strategic media and event planning.</li>
+        </ul>
+      </div>
+  
+      <div class="timeline-item fade-in">
+        <h3>Web Developer <span class="company-tag">Ringwell Projects</span> <span class="current-position">Current</span></h3>
+        <div class="timeline-duration">2021 - Present</div>
+        <ul class="timeline-list">
+          <li>Code responsive websites using HTML, CSS, JavaScript, and jQuery, ensuring seamless user experiences across devices.</li>
+          <li>Employ cutting-edge software and technologies to enhance website performance and optimize corporate online presence.</li>
+          <li>Utilize PHP for back-end development, maintaining website integrity and implementing efficient server-side functionality.</li>
+        </ul>
+      </div>
+  
+      <div class="timeline-item fade-in">
+        <h3>CTO <span class="company-tag">Timingotech</span> <span class="current-position">Current</span></h3>
+        <div class="timeline-duration">2021 - Present</div>
+        <ul class="timeline-list">
+          <li>Led web development innovation initiatives, delivering solutions that fostered partnerships with industry leaders and drove business growth.</li>
+          <li>Spearheaded UX transformation projects, implementing user-centric design principles to enhance digital experiences.</li>
+          <li>Directed e-commerce platform development, integrating modern technology with intuitive design for optimal user experience.</li>
+        </ul>
+      </div>
+  
+      <div class="timeline-item fade-in">
+        <h3>Lead Front-End Developer <span class="company-tag">Allforms Limited</span></h3>
+        <div class="timeline-duration">2023 - January 2025</div>
+        <ul class="timeline-list">
+          <li>Spearheaded implementation of automated build and deployment pipelines, optimizing development processes.</li>
+          <li>Successfully managed multiple projects and roles while meeting tight deadlines and exceeding expectations.</li>
+          <li>Developed user-oriented features and conducted comprehensive testing to ensure optimal functionality.</li>
+        </ul>
+      </div>
+  
+      <div class="timeline-item fade-in">
+        <h3>Senator & Secretary <span class="company-tag">BUSA Social Committee</span></h3>
+        <div class="timeline-duration">July 2023 - July 2024</div>
+        <ul class="timeline-list">
+          <li>Played a key role in student governance, advocating for student interests and welfare.</li>
+          <li>Organized and managed social events, ensuring smooth execution and high engagement.</li>
+          <li>Collaborated with university administration to enhance student experiences and initiatives.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
       
   </section>
 
@@ -228,14 +291,13 @@
           <div class="contact-info">
             <h1>Phone</h1>
             <h2>+2349022013174</h2>
-            <h2>+2349054755284</h2>
           </div>
         </div>
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
           <div class="contact-info">
             <h1>Email</h1>
-            <h2>timingotech@gmail.com</h2>
+            <h2>ridwanoyenuga@serenimind.com.ng</h2>
             <h2>taonuga@gmail.com</h2>
           </div>
         </div>

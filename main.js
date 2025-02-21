@@ -36,3 +36,64 @@ function sendemail(){
     message => alert("Message Sent Successfully")
   );
 } 
+
+window.addEventListener('load', () => {
+	const loader = document.querySelector('.loading-animation');
+	loader.style.display = 'none';
+  });
+
+  // Smooth scroll for navigation links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	anchor.addEventListener('click', function (e) {
+	  e.preventDefault();
+	  document.querySelector(this.getAttribute('href')).scrollIntoView({
+		behavior: 'smooth'
+	  });
+	});
+  });
+
+  // Navbar color change on scroll
+  window.addEventListener('scroll', () => {
+	const header = document.querySelector('#header');
+	if (window.scrollY > 100) {
+	  header.style.background = 'rgba(255, 255, 255, 0.95)';
+	} else {
+	  header.style.background = 'rgba(255, 255, 255, 0.1)';
+	}
+  });
+
+  // Reveal animations on scroll
+  const revealElements = document.querySelectorAll('.reveal');
+  const revealOnScroll = () => {
+	revealElements.forEach(element => {
+	  const elementTop = element.getBoundingClientRect().top;
+	  if (elementTop < window.innerHeight - 100) {
+		element.classList.add('revealed');
+	  }
+	});
+  };
+  window.addEventListener('scroll', revealOnScroll);
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    
+    function checkIfInView() {
+      timelineItems.forEach(item => {
+        const rect = item.getBoundingClientRect();
+        const isInView = (
+          rect.top >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        );
+        
+        if (isInView && !item.classList.contains('fade-in')) {
+          item.classList.add('fade-in');
+        }
+      });
+    }
+    
+    // Initial check
+    checkIfInView();
+    
+    // Check on scroll
+    window.addEventListener('scroll', checkIfInView);
+  });
