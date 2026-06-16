@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Impact & Archive — Ridwan Oyenuga</title>
+</head>
+<body>
+
+  <div class="loading-animation">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="index.html"><h1><span>R</span>idwan <span>O</span>yenuga</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="index.html#services" data-after="Service">Services</a></li>
+            <li><a href="index.html#projects" data-after="Projects">Projects</a></li>
+            <li><a href="index.html#about" data-after="About">About</a></li>
+            <li><a href="impact.html" data-after="Impact" class="active-nav-link">Impact</a></li>
+            <li><a href="index.html#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Archive Section -->
+  <section id="archive" style="padding-top: 80px;">
+    <div class="archive-wrapper">
+
+      <!-- Archive Hero Header -->
+      <div class="archive-header">
+        <div class="archive-header-content">
+          <h1 class="section-title" style="color:white">Evidence &amp; <span>Archive</span> Center</h1>
+          <p class="archive-subtitle">The definitive public record of Ridwan Oyenuga's impact, leadership, advocacy, entrepreneurship, media recognition, appointments, fellowships, speaking engagements, initiatives, publications, awards, partnerships, and achievements.</p>
+          <div class="archive-stats-row">
+            <div class="archive-stat"><span class="archive-stat-number" id="totalEntries">25</span><span class="archive-stat-label">Archive Entries</span></div>
+            <div class="archive-stat"><span class="archive-stat-number">25+</span><span class="archive-stat-label">Countries Reached</span></div>
+            <div class="archive-stat"><span class="archive-stat-number">20+</span><span class="archive-stat-label">Media Features</span></div>
+            <div class="archive-stat"><span class="archive-stat-number">7</span><span class="archive-stat-label">Databases</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Database Navigation Tabs -->
+      <div class="db-nav-wrapper">
+        <div class="db-nav">
+          <button class="db-tab active" data-db="ALL">All Archives</button>
+          <button class="db-tab" data-db="MEDIA">Media Database</button>
+          <button class="db-tab" data-db="INTERVIEW">Interview Database</button>
+          <button class="db-tab" data-db="SPEAKING">Speaking Database</button>
+          <button class="db-tab" data-db="RECOGNITION">Recognition Database</button>
+          <button class="db-tab" data-db="PARTNERSHIP">Partnership Database</button>
+          <button class="db-tab" data-db="PUBLICATION">Publication Database</button>
+          <button class="db-tab" data-db="LEADERSHIP">Leadership Database</button>
+        </div>
+      </div>
+
+      <!-- Search & Filters -->
+      <div class="archive-controls">
+        <div class="archive-search-box">
+          <span class="search-icon">&#128269;</span>
+          <input type="text" id="archiveSearch" placeholder="Search by title, organization, description...">
+        </div>
+        <div class="archive-filters">
+          <select id="filterYear" class="archive-filter">
+            <option value="">All Years</option>
+            <option value="2026">2026</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+          </select>
+          <select id="filterCountry" class="archive-filter">
+            <option value="">All Countries</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Pan-Africa">Pan-Africa</option>
+            <option value="Global">Global</option>
+            <option value="France">France</option>
+          </select>
+          <select id="filterCategory" class="archive-filter">
+            <option value="">All Categories</option>
+            <option value="Media Coverage">Media Coverage</option>
+            <option value="Interview">Interview</option>
+            <option value="Broadcast">Broadcast</option>
+            <option value="Advisory Board">Advisory Board</option>
+            <option value="Digital Campaign">Digital Campaign</option>
+            <option value="Startup &amp; Innovation">Startup &amp; Innovation</option>
+            <option value="Speaking">Speaking</option>
+            <option value="Fellowship">Fellowship</option>
+            <option value="Award">Award</option>
+            <option value="Partnership">Partnership</option>
+            <option value="Publication">Publication</option>
+            <option value="Community Impact">Community Impact</option>
+            <option value="Youth Leadership">Youth Leadership</option>
+            <option value="Organizational Leadership">Organizational Leadership</option>
+            <option value="Ambassadorial">Ambassadorial</option>
+            <option value="Press Mentions">Press Mentions</option>
+          </select>
+          <select id="filterImpactArea" class="archive-filter">
+            <option value="">All Impact Areas</option>
+            <option value="Mental Health">Mental Health</option>
+            <option value="Tech Entrepreneurship">Tech Entrepreneurship</option>
+            <option value="Youth Advocacy">Youth Advocacy</option>
+            <option value="Digital Health">Digital Health</option>
+            <option value="Peace &amp; Security">Peace &amp; Security</option>
+            <option value="Pan-African Development">Pan-African Development</option>
+          </select>
+          <select id="filterMediaType" class="archive-filter">
+            <option value="">All Media Types</option>
+            <option value="Online News">Online News</option>
+            <option value="Print">Print</option>
+            <option value="Video">Video</option>
+            <option value="Magazine">Magazine</option>
+            <option value="Blog / Feature">Blog / Feature</option>
+            <option value="Official Platform">Official Platform</option>
+          </select>
+          <select id="filterRole" class="archive-filter">
+            <option value="">All Roles</option>
+            <option value="Founder / CEO">Founder / CEO</option>
+            <option value="Expert Source">Expert Source</option>
+            <option value="Advisory Member">Advisory Member</option>
+            <option value="Speaker">Speaker</option>
+            <option value="Advocate">Advocate</option>
+            <option value="Campaign Lead">Campaign Lead</option>
+          </select>
+          <select id="filterInitiative" class="archive-filter">
+            <option value="">All Initiatives</option>
+            <option value="Africa Wellness Voices Initiative">Africa Wellness Voices Initiative</option>
+            <option value="SereniMind">SereniMind</option>
+            <option value="West Africa Peace Advisory Council">West Africa Peace Advisory Council</option>
+          </select>
+          <button id="clearAllFilters" class="clear-filters-btn">&#10005; Clear Filters</button>
+        </div>
+        <div class="archive-results-info">
+          <span id="archiveResultCount">Loading...</span>
+          <div class="view-toggle">
+            <button class="view-btn active" id="gridViewBtn" title="Grid View">&#8862;</button>
+            <button class="view-btn" id="listViewBtn" title="List View">&#9776;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Archive Cards Grid (populated by JS) -->
+      <div class="archive-grid" id="archiveGrid"></div>
+
+      <!-- Archive Category Index -->
+      <div class="archive-index">
+        <h2 class="section-title">Archive <span>Index</span></h2>
+        <p class="archive-index-subtitle">16 dedicated archive categories — click any card to filter the database above</p>
+        <div class="archive-index-grid">
+          <div class="archive-index-card" onclick="filterByDbCategory('Media Coverage')"><div class="aic-icon">&#128240;</div><h3>Media Coverage Archive</h3><p>Press features, news articles, and editorial coverage across Nigerian and African media</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Publication')"><div class="aic-icon">&#128196;</div><h3>Publications Archive</h3><p>Articles, op-eds, research papers, and written works</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Interview')"><div class="aic-icon">&#127897;</div><h3>Interviews Archive</h3><p>Media interviews, profiles, personal features and Q&As</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Broadcast')"><div class="aic-icon">&#128250;</div><h3>Broadcast Appearances Archive</h3><p>TV, radio, podcast, YouTube, and video appearances</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Speaking')"><div class="aic-icon">&#127908;</div><h3>Conference Speaking Archive</h3><p>Keynotes, panel discussions, and speaking engagements</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Fellowship')"><div class="aic-icon">&#127891;</div><h3>Fellowship Archive</h3><p>Fellowships, grants, scholarships, and academic recognition</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Ambassadorial')"><div class="aic-icon">&#127758;</div><h3>Ambassadorial Roles Archive</h3><p>Brand ambassador, goodwill, and official representative roles</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Advisory Board')"><div class="aic-icon">&#127963;</div><h3>Advisory Board Archive</h3><p>Advisory positions, council memberships, and board roles</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Award')"><div class="aic-icon">&#127942;</div><h3>Awards &amp; Recognition Archive</h3><p>Awards, honors, nominations, and formal recognition</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Community Impact')"><div class="aic-icon">&#127807;</div><h3>Community Impact Archive</h3><p>Community projects, outreach programs, and social impact</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Youth Leadership')"><div class="aic-icon">&#9889;</div><h3>Youth Leadership Archive</h3><p>Youth advocacy campaigns, leadership roles, and movements</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Partnership')"><div class="aic-icon">&#129309;</div><h3>Partnership Archive</h3><p>Strategic collaborations, MOUs, and organizational partnerships</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Press Mentions')"><div class="aic-icon">&#128203;</div><h3>Press Mentions Archive</h3><p>Press releases, media mentions, and PR coverage</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Digital Campaign')"><div class="aic-icon">&#128187;</div><h3>Digital Campaign Archive</h3><p>Online campaigns, social media movements, and digital advocacy</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Organizational Leadership')"><div class="aic-icon">&#127970;</div><h3>Organizational Leadership Archive</h3><p>Leadership positions, directorships, and governance roles</p></div>
+          <div class="archive-index-card" onclick="filterByDbCategory('Startup &amp; Innovation')"><div class="aic-icon">&#128640;</div><h3>Startup &amp; Innovation Archive</h3><p>Startups founded, products launched, and innovations built</p></div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- End Archive Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>R</span>idwan <span>O</span>yenuga</h1></div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/profile.php?id=100078274624721"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/timingo.tech/?hl=en"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/oyenugaridwan/"><img src="https://img.icons8.com/?size=512&id=108650&format=png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/ridwan-timilehin-oyenuga-a66b9224b"><img src="https://img.icons8.com/?size=512&id=108812&format=png"/></a>
+        </div>
+      </div>
+      <p>Copyright &copy; 2026 Ridwan Oyenuga. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+
+  <script src="./main.js"></script>
+</body>
+</html>
