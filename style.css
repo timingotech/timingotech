@@ -1190,7 +1190,6 @@ p {
 
 .archive-wrapper {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 /* ---- Archive Header ---- */
@@ -1264,6 +1263,7 @@ p {
 .db-nav-wrapper {
   background: #12122a;
   overflow-x: auto;
+  overflow-y: visible;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   border-bottom: 1px solid rgba(255,255,255,0.06);
